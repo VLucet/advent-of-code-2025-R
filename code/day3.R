@@ -7,15 +7,15 @@ read_data <- function(input_file) {
 
 # Part 1
 
-test_dat <- read_data("inputs/dayX_test.txt")
-dat <- read_data("inputs/dayX.txt")
+test_dat <- read_data("inputs/day3_test.txt")
+dat <- read_data("inputs/day3.txt")
 
 part1 <- function(d) {
 
 }
 
 part1(test_dat)
-test_that("Test data", expect_equal(part1(test_dat), 0))
+test_that("Test data", expect_equal(part1(test_dat), 357))
 part1(dat)
 
 # Part 2
